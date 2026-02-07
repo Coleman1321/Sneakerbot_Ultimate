@@ -1,0 +1,140 @@
+2026-02-06 18:47:35 - SneakerBot - INFO - [Adidas] Browser Setup - Initializing
+2026-02-06 18:47:37 - SneakerBot - INFO - ============================================================
+2026-02-06 18:47:37 - SneakerBot - INFO - ============================================================
+2026-02-06 18:47:37 - SneakerBot - INFO - ============================================================
+2026-02-06 18:47:37 - SneakerBot - INFO - ============================================================
+2026-02-06 18:48:10 - SneakerBot - ERROR - Adidas login error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name='email']")
+Traceback (most recent call last):
+  File "C:\Users\Deven Coleman\Downloads\SneakerBot_Ultimate_Complete\SneakerBot_Ultimate_Complete\src\adidas_bot.py", line 73, in login
+    self.page.fill("input[name='email']", self.email)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_generated.py", line 10177, in fill
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.fill(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_page.py", line 893, in fill
+    return await self._main_frame.fill(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_frame.py", line 607, in fill
+    await self._fill(**locals_to_params(locals()))
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_frame.py", line 619, in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name='email']")
+
+2026-02-06 18:48:10 - SneakerBot - INFO - ============================================================
+2026-02-06 18:48:10 - SneakerBot - INFO - ============================================================
+2026-02-06 18:49:53 - SneakerBot - INFO - [Adidas] Browser Setup - Initializing
+2026-02-06 18:50:59 - SneakerBot - INFO - [Adidas] Browser Setup - Initializing
+2026-02-06 18:50:59 - SneakerBot - INFO - ============================================================
+2026-02-06 18:50:59 - SneakerBot - INFO - ============================================================
+2026-02-06 18:50:59 - SneakerBot - INFO - ============================================================
+2026-02-06 18:50:59 - SneakerBot - INFO - ============================================================
+2026-02-06 18:51:32 - SneakerBot - ERROR - Adidas login error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name='email']")
+Traceback (most recent call last):
+  File "C:\Users\Deven Coleman\Downloads\SneakerBot_Ultimate_Complete\SneakerBot_Ultimate_Complete\src\adidas_bot.py", line 73, in login
+    self.page.fill("input[name='email']", self.email)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_generated.py", line 10177, in fill
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.fill(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_page.py", line 893, in fill
+    return await self._main_frame.fill(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_frame.py", line 607, in fill
+    await self._fill(**locals_to_params(locals()))
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_frame.py", line 619, in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name='email']")
+
+2026-02-06 18:51:32 - SneakerBot - INFO - ============================================================
+2026-02-06 18:51:32 - SneakerBot - INFO - ============================================================
+2026-02-06 18:55:09 - SneakerBot - INFO - [Nike] Browser Setup - Initializing with stealth mode
+2026-02-06 18:56:38 - SneakerBot - INFO - [Nike] Browser Setup - Initializing with stealth mode
+2026-02-06 18:56:38 - SneakerBot - INFO - ============================================================
+2026-02-06 18:56:38 - SneakerBot - INFO - ============================================================
+2026-02-06 18:56:38 - SneakerBot - INFO - [Nike] Login - Logging in as devenc@me.com
+2026-02-06 18:57:08 - SneakerBot - ERROR - [Nike Login] Exception occurred: TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.nike.com/login", waiting until "networkidle"
+Traceback (most recent call last):
+  File "C:\Users\Deven Coleman\Downloads\SneakerBot_Ultimate_Complete\SneakerBot_Ultimate_Complete\src\nike_bot.py", line 160, in login
+    self.page.goto(NIKE_CONFIG["login_url"], wait_until="networkidle")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+            url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Deven Coleman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.nike.com/login", waiting until "networkidle"
+
+2026-02-06 18:57:08 - SneakerBot - INFO - ============================================================
+2026-02-06 19:04:00 - SneakerBot - INFO - [Nike] Cleanup - Browser closed

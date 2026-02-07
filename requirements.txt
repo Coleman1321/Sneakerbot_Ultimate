@@ -1,0 +1,160 @@
+# ========================================
+# SneakerBot Ultimate - Dependencies
+# Security Research Project
+# ========================================
+
+# Core Web Automation
+playwright==1.40.0
+selenium==4.16.0
+
+# HTTP Requests & Web Scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Async Support
+aiohttp==3.9.1
+asyncio==3.4.3
+
+# Database
+sqlite3  # Built-in Python module
+
+# GUI Framework
+tkinter  # Built-in Python module for most Python distributions
+
+# CAPTCHA Solving
+2captcha-python==1.2.0
+anticaptchaofficial==1.0.56
+
+# Proxy Management
+requests[socks]==2.31.0
+pysocks==1.7.1
+
+# Browser Fingerprinting & Stealth
+playwright-stealth==0.1.0
+undetected-chromedriver==3.5.4
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.2
+
+# Logging & Monitoring
+colorlog==6.8.0
+loguru==0.7.2
+
+# Configuration Management
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Notifications
+discord-webhook==1.3.0
+python-telegram-bot==20.7
+
+# AI/ML (for auto-fix feature)
+openai==1.6.1
+anthropic==0.8.1
+
+# Utilities
+faker==22.0.0  # For generating fake user data
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Security & Encryption
+cryptography==41.0.7
+
+# HTTP Header Manipulation
+user-agents==2.2.0
+
+# Rate Limiting
+ratelimit==2.2.1
+
+# Image Processing (for CAPTCHA)
+Pillow==10.1.0
+
+# JSON Processing
+jsonschema==4.20.0
+
+# Testing (Optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Performance Monitoring
+psutil==5.9.6
+
+# Browser Automation Helpers
+pyppeteer==1.0.2
+
+# Advanced Proxy Rotation
+proxybroker==0.3.2
+
+# Session Management
+requests-toolbelt==1.0.0
+
+# Rate Limiting Protection
+backoff==2.2.1
+
+# Random Data Generation
+mimesis==12.1.0
+
+# HTML Parsing
+html5lib==1.1
+
+# Cookie Management
+http-cookies==1.0.1
+browser-cookie3==0.19.1
+
+# Concurrent Execution
+concurrent-futures==3.1.1  # Built-in for Python 3.2+
+
+# Time Management
+arrow==1.3.0
+
+# API Rate Limiting
+pyrate-limiter==3.1.1
+
+# Advanced HTTP Client
+httpx==0.25.2
+
+# Data Validation
+pydantic==2.5.3
+
+# Environment Variable Management
+python-decouple==3.8
+
+# Progress Bars
+tqdm==4.66.1
+
+# Retry Logic
+tenacity==8.2.3
+
+# JSON Web Tokens (for API authentication)
+PyJWT==2.8.0
+
+# Advanced Scheduling
+APScheduler==3.10.4
+
+# Database ORM (Optional Advanced Feature)
+sqlalchemy==2.0.23
+
+# CLI Interface (Optional)
+click==8.1.7
+rich==13.7.0
+
+# Network Tools
+netifaces==0.11.0
+scapy==2.5.0
+
+# Browser Detection Evasion
+selenium-wire==5.1.0
+
+# Advanced CAPTCHA Handling
+hcaptcha-challenger==0.8.0
+
+# Stealth Browsing
+selenium-stealth==1.0.6
+
+# Notes:
+# - Some packages like tkinter and sqlite3 come with Python
+# - For Playwright, run: playwright install
+# - For full functionality, you may need Chrome/Chromium installed
+# - API keys required for: 2Captcha, OpenAI, Discord webhooks
