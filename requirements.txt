@@ -18,6 +18,8 @@ asyncio==3.4.3
 
 # Database
 sqlite3  # Built-in Python module
+supabase==2.0.3
+postgrest-py==0.15.0
 
 # GUI Framework
 tkinter  # Built-in Python module for most Python distributions
