@@ -3,6 +3,9 @@
 # Security Research Project
 # ========================================
 
+# Price Finder Web App
+flask>=3.0.0
+
 # Core Web Automation
 playwright==1.40.0
 selenium==4.16.0
